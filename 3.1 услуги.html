@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop "Махаббат"</title>
+    <link rel="stylesheet" href="C:\Users\юзер\Desktop\barbershop\Новая папка\Css\style.css">
+</head>
+<body>
+
+<header>
+    <h1>Barbershop "Махаббат"</h1>
+</header>
+
+<nav>
+    <a href="3.1 услуги.html" target="_blank" onclick="window.location.href='3.1.html';">Главная</a>
+    <a href="#services">Услуги</a>
+    <a href="3.1 услуги.html" target="_blank" onclick="window.location.href='3.1 Сотрудники.html';">Сотрудники</a>
+    <a href="3.1 услуги.html" target="_blank" onclick="window.location.href='3.1 контакты.html';">Контакты</a>
+</nav>
+
+<section id="home" class="main-content">
+    <!-- Содержимое главной страницы -->
+</section>
+
+<section id="services" class="main-content">
+    <h2>Наши Услуги</h2>
+    <table>
+        <tr>
+            <th>Услуга</th>
+            <th>Цена</th>
+        </tr>
+        <tr>
+            <td>Стрижка бороды</td>
+            <td>2000тг</td>
+        </tr>
+        <tr>
+            <td>Окрашивание</td>
+            <td>4000тг</td>
+        </tr>
+        <tr>
+            <td>Прически для особых случаев</td>
+            <td>10000тг</td>
+        </tr>
+        <!-- Добавьте дополнительные услуги -->
+    </table>
+</section>
+<body>
+
+    <form id="appointmentForm" class="main-content">
+        <h2>Записаться на прием</h2>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+    
+        <label for="service">Выберите услугу:</label>
+        <select id="service" name="service" required>
+            <option value="haircut">Стрижка бороды</option>
+            <option value="coloring">Окрашивание</option>
+            <option value="special">Прически для особых случаев</option>
+            <!-- Добавьте дополнительные услуги -->
+        </select>
+    
+        <label for="date">Дата и время:</label>
+        <input type="datetime-local" id="date" name="date" required>
+    
+        <button type="submit">Записаться</button>
+    </form>
+    
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Адрес: ул. Незнаево, 123</p>
+    <p>Телефон: +7 (771) 135-61-17</p>
+    <p>Email: info@beautifulhair.com</p>
+</section>
+
+<footer>
+    <p>&copy; Barbershop "Махаббат"</p>
+</footer>
+
+</body>
+</html>
